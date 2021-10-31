@@ -10,3 +10,5 @@ itsdangerous==0.24
 Jinja2==2.10
 Werkzeug==0.14.1
 wheel==0.24.0
+sqlalchemy==1.4.26
+git+https://github.com/PrithivirajDamodaran/Styleformer.git

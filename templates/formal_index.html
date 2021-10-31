@@ -20,29 +20,20 @@
     </ul>
   </div>
     </nav>
+    <!-- For demo purpose -->
     <section class="py-5 text-white">
     <div class="container py-4">
         <div class="row">
         <div class="col-lg-8 mx-auto text-center">
             <img src="/static/logo_fs.jpg"></img>
-            <form method='POST' action='/' id='form'>
-                <br/>
-                <br/>
-                <input type="text" class='topic' name='topic' placeholder="Enter essay topic" autocomplete="off">
-                <br/>
-                <br/>
-                <input type="text" class='name' name='name' placeholder="Enter your name" autocomplete="off">
-                <br/>
-                <br/>
-                <textarea name="essay" class="essay" cols="30" rows="10" placeholder="Enter casual text here..." autocomplete="off"></textarea>
-                <br/>
-                <br/>
-                <div id='b_class'>
-                    <input class="mkfor" id="fb" type='submit' value="Make Formal" onclick='return formal();'>
-                </div>
-                <br/>
-                <br/>
-            </form>
+            <br/>
+            <br/>
+            <h2 class='topic_text'>{{ topic }}</h2>
+            <br>
+            <p class='code'>by {{ name }}</p>
+            <br>
+            <br>
+            <p class='code'>{{ essay }}</p>
         </div>
         </div>
         <div class="row pt-5">
